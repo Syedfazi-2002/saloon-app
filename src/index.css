@@ -1,13 +1,182 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+body{
+  background-color: black;
+}
+  /* navbar  component*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-box-shadow: -1px 5px 9px -3px rgba(0,0,0,0.56);
+  -moz-box-shadow: -1px 5px 9px -3px rgba(0,0,0,0.56);
+  box-shadow: -1px 5px 9px -3px rgba(0,0,0,0.56);
+}
+.navbar-collapse{
+  flex-grow: 0;
+  margin-right: 100px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding: 1% 4%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-nav li a{
+  color: #fff;
+  margin-left: 40px;
+}
+
+
+  /* buttons navbar */
+
+  .btn{
+    border-color: transparent;
+  }
+/* 
+
+
+/* BAck ground image component */
+.image-container{
+  height: 800px;
+  max-height: auto;
+  background-image: url('https://s3-alpha-sig.figma.com/img/3064/c490/b25e5623b446ce05aecb12102dc8b63f?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bWUv5jEvwTgrPtjG~vlZB3RYUtzQEeLNBNb~dq90Jhl9EIoYdk~b9wZSJrIo5zrXWpadyLP~zfbl0SKqn7gSE7vPwGwnoltYbSdyrJkWQIquRNM9IxkOi9Rj8AC0pzw20Znnuk0nousfCREAUoZlONAbSUwZLBoZIEVaSBTa6TtAASYsjNpOQOrBoJARoElIJoME0J3ls-RSicZ3nVy5bvYOCrb1AIupvrg59w5GzvC3~H33maHZRL7K2v8mpJGBIceF6eQ2Y5PtYU-Lgvbkn83v9t1Ru08DD7Uyb0c~lhCePx8KGboT7VuFEQSjH5gW8qaxx-fDDADFXe-addSObw__');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.image-container h1{
+  font-size: 3em;
+  width: 350px;
+  margin-bottom: 30px;
+}
+.image-container p{
+  width: 600px;
+  margin-bottom: 35px;
+}
+.image-container button{
+   background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 25px;
+  width: 250px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px; 
+  
+}
+
+/* css for Quotaion Containet component */
+
+.quotation-container{
+  width: 100%;
+  height: 353px;
+  background-color: #CCBB8E;
+}
+.quote-symbol{
+  text-align: center;
+  padding-top: 40px;
+  
+}
+.quote-data{
+  width:440px;
+  padding-top: 20px;
+   margin-left: 280px; 
+   margin: auto;
+  text-align: center;
+  font-weight: 400;
+ 
+} 
+.quote-generator{
+  text-align: center;
+  padding-top: 20px;
+  font-size: small;
+} 
+  /* css for footer component */
+ .footer-container{
+  padding-top: 30px;
+   padding-left: 150px; 
+  margin: 10px;
+} 
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 8px;
+  height: 10px;
+}
+
+
+
+/* css for GEt in touch Component */
+.Get-Parent-container{
+  display: flex;
+  gap: 10%;
+}
+/* d-flex gap-10% */
+.getIn-container{
+  
+  width: 55%;
+   position: relative;
+}
+.get-image-container{
+  width: 100%;
+}
+.logo-relative{
+  width: 14%;
+  border-radius: 50%;
+  position: absolute;
+  top: -32px;
+  right: -66px;
+} 
+.arrow-logo{
+  font-size: xxx-large;
+  position: absolute; 
+  top: 26px;
+  left: 44px;
+
+}
+.get-in-logo{
+  width: 80%;
+}
+
+.getIn-data-container{
+  width: 30%;
+}
+
+.input{
+  color: #fff;
+  font-size: 15px;
+  padding-top: 60px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  background-color: black;
+  width: 400px;
+} 
+.button-submit{
+  padding-top: 30px;
+}
+.btn-1:hover{
+  background-color:purple;
+  transform: scale(1.2);
+  border: 1px solid purple;
+}
+/* Reason to use Groomer  */
+.Grommer-container{
+  padding-top: 101px !important;
+  /* padding-top: 91px; */
+}
+.Reason-header{
+    padding-top: 50px;
+    margin-bottom: 80px;
+    padding-left: 167px;
+    color: white;
 }
