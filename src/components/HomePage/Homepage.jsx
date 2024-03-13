@@ -3,6 +3,8 @@ import Quotations from "./Qutoes";
 import Footer from "../Footer";
 import GetInTouch from "./GetInTouch";
 import ReasonToUseGroomer from "../ReasonToUseGroomer";
+import HomeSaloon from "../HomeSallonService";
+import GroomerCard from "./GroomerCard";
 function HomePage() {
     return (
         <div>
@@ -66,13 +68,16 @@ function HomePage() {
                 </div>
 
                 <div>
-                    <h2>What is Goomer</h2>
+                    <GroomerCard></GroomerCard>
                 </div>
 
                             
                              <div> 
                                 <Quotations></Quotations>
                              </div> 
+                             <div>
+                                <HomeSaloon></HomeSaloon>
+                             </div>
                              <div> 
                                 <ReasonToUseGroomer></ReasonToUseGroomer>
                              </div> 
@@ -82,6 +87,7 @@ function HomePage() {
                              <div> 
                                 <Footer></Footer>
                              </div> 
+                             
 
 
                 <div>
