@@ -284,3 +284,10 @@ button{
   background-color: #CCBB8E;
   ;
 }
+
+.slider-container{
+  border: 5px solid green;
+}
+.carousel-card-container{
+  background-image: url("https://s3-alpha-sig.figma.com/img/15da/db12/118d30f5d46ee8ce07e5fa265c120d05?Expires=1711324800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Po2yjP3orrrqbwYPa7jTbxjWtwb3A309mhfmy3f6dzPNORWrE3LwJV7MB2qI9-HhGbrHAu4tK0egUz-4y4q6n1pdL13Yxt4w6490He3loHQ8HMbT4amOS1IHFK6KcmDBx-laHt-clshohH9--IUKiJYTqs5qlHSMFgCHWrbPIpkqSw5TNw4K~t5X9km7ev8LakD9anXB-UfmHSykLu0ySn-euC6xjfSBo1X78009Swvku78UC2sJqtz85z2thcUlPJSiRzhaCorqbKcl3IH11FwyVL8VEKCo1h3uwJLcxh7fhgVXtxFVG14AmoXEue1EqmlUA5Dm~1fqt6202oy3UQ__");
+}

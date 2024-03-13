@@ -5,6 +5,7 @@ import GetInTouch from "./GetInTouch";
 import ReasonToUseGroomer from "../ReasonToUseGroomer";
 import HomeSaloon from "../HomeSallonService";
 import GroomerCard from "./GroomerCard";
+import CarouselCard from "../CarouselCard";
 function HomePage() {
     return (
         <div>
@@ -68,15 +69,19 @@ function HomePage() {
                 </div>
 
                 <div>
-                    <GroomerCard></GroomerCard>
+                    {/* <GroomerCard></GroomerCard> */}
                 </div>
+
 
                             
                              <div> 
                                 <Quotations></Quotations>
                              </div> 
                              <div>
-                                <HomeSaloon></HomeSaloon>
+                                {/* <CarouselCard/> */}
+                             </div>
+                             <div>
+                                {/* <HomeSaloon></HomeSaloon> */}
                              </div>
                              <div> 
                                 <ReasonToUseGroomer></ReasonToUseGroomer>
