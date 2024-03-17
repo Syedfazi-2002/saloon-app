@@ -4,7 +4,22 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "../node_modules/bootstrap/dist/js/bootstrap.min"
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import HomePage from './components/HomePage/Homepage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// const router = createBrowserRouter([
+//   {
+//     path: "/",
+//     element:<HomePage></HomePage>,
+//   },
+//   {
+//     path : "/register",
+//     element : <NavBar></NavBar>
+//   }
+// ]);
 root.render(
   <React.StrictMode>
     <App />
