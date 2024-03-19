@@ -9,8 +9,6 @@ body{
 }
   /* navbar  component*/
 nav{
-  margin-top: 100px;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.1);
@@ -42,8 +40,6 @@ nav{
     border-color: transparent;
   }
 /* 
-
-
 /* BAck ground image component */
 .image-container{
   height: 800px;
@@ -176,18 +172,10 @@ nav{
   transform: scale(1.2);
   border: 1px solid purple;
 }
-/* Reason to use Groomer  */
- /* .Grommer-container{
-  padding-top: 101px !important;
-  /* padding-top: 91px; */
-/* }
-.Reason-header{
-    padding-top: 50px;
-    margin-bottom: 80px;
-    padding-left: 167px;
-    color: white;
-}  */ */
 
+.Reason-header{
+  padding-left: 212px;
+}
 
 
 /* Home saloon container */
@@ -269,7 +257,7 @@ div.card-body{
 p.card-text{
   font-style: italic;
   margin-top: 10px;
-  width: 180px;
+  width: 280px;
   max-width: 100%;
 }
 .card-image{
@@ -327,6 +315,13 @@ p.card-text{
   border: 1px solid red;
   padding: 10px;
 }
+.btn-about-us{
+  padding: 8px;
+  width: 200px;
+  background: #CCBB8E;
+  margin-bottom: 53px;
+}
+
 .card-img1-card{
  display: block;
  width: 400px;
@@ -416,10 +411,10 @@ p.card-text{
 
 /* Cards -containrers */
 .parent-card-container{
-  
-     gap: 78px;
+     gap: 80px;
     justify-content: center;
     display: flex !important;
+    padding-bottom: 30px 
 }
 .cards-container{
    width: 300px;
@@ -431,4 +426,132 @@ p.card-text{
 }
 .card-body{
   width: 300px;
+}
+
+/* re creating card component */
+.slider-wrapper .image-list{
+  display: grid;
+  gap: 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10,1fr);
+}
+.slider-btn-container{
+
+}
+.slider-btn{
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+.slider-wrapper .image-list::-webkit-scrollbar{
+ display: none;
+}
+.slider-wrapper .image-list .image-item{
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+} 
+.creating-card-container{
+  align-items: center;
+  max-width: 1440px;
+  width: 95%;
+}
+/*  */
+
+/* Register form css */
+.Register-image{
+  width: 800px;
+  height: 1050px;
+}
+.register-Form-Container{
+  display: flex;
+  gap:170px;
+}
+.Register-data-container{
+  color: white;
+  width: 1007px;
+  height: 400px;
+  margin-top: 381px;
+}
+.input-register-form{
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  padding-top: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  width: 550px;
+}
+.checkbox-container{
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.btn-register{
+  width: 200px;
+  text-align: center;
+  padding: 12px;
+  background-color:#CCBB8E;  
+}
+/* Login page  */
+.login-image{
+  width: 800px;
+  height: 1050px;
+}
+.Parent-loginpage-container{
+  display: flex;
+  gap:170px;
+}
+.Login-form-data-container{
+  color: white;
+  width: 1007px;
+  height: 400px;
+  margin-top: 381px;
+}
+.Login-input{
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  padding-top: 40px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  width: 550px;
+}
+.Forget-password{
+  color: #CCBB8E;
+  padding: 20px;
+    margin-left: 350px;
+}
+.btn-Login{
+  background-color: #CCBB8E;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+}
+/* About page  */
+.About-page-img{
+  background-image: url(https://s3-alpha-sig.figma.com/img/3ede/70f2/e14daa2cac562d02cb10e979f8d5d581?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C81eyD-vrdZfEWskqeGZRBjhL5HQxBD3Hmd5g1CNlhmh5CTapYSBRYb~qSmUx0AWj1ob2syn0sqz-e13iRIhsRO7WcCNoVZwyNpk0Irni7Dmg5BJ-gdy-wgrKoVnKAPtyGWWGNJykGHECMJoViNz5pEPdMNSX4O4R9Zp2V2sy~mX0Vs3MryCrmQx5GxGjP4Feqvor-tEqGWsSVDJxQzSZd2kSbXHckq8Az49r1M~xHBtUAWQNwT8E4Xp28s9uMLu7uplme4mFG7G8jGyFkzzGotTyPzH5kIEtu7sdGxcbRPLGArANdXLqTjxGq2vP53J2QfIBuAllTW9WfZUoREaag__);
+  width: 100%;
+  height: 860px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.About-page-img::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 860px;
 }
